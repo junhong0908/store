@@ -1,4 +1,6 @@
 package com.example.store.product.domain;
 
-public class ProductStatus {
+public enum ProductStatus {
+    ACTIVE,
+    HIDDEN
 }
